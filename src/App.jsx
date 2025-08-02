@@ -77,7 +77,7 @@ export const App = () => {
               setSortField('');
               setReversed(false);
             }}
-            className={`button is-danger ${sortField !== 'length' ? 'is-light' : ''}`}
+            className="button is-danger is-light"
           >
             Reset
           </button>
